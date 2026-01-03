@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgba(18, 103, 167, 0.628);
+}
+img{
+    height:80px;
+    width:80px;
+    border-radius: 50px;
+    padding-top: 0.5rem;
+   
+
+}
+.card-2{
+  width:300px;
+  min-width: 50px;
+background-color: rgb(227, 239, 239);
+border-radius: 10px;
+box-shadow: 0 10px 10px;
+ text-align: center;
+ 
+}
+.card-2 p{
+    padding: 5px;
+}
+.card-2 h3{
+    padding:10px;
+}
+.card-2 .skills{
+    display:flex;
+  align-items: center;
+  justify-content: center;
+ text-align: center;
+
+ border-radius: 10px;
+ gap:10px;
+}
+ .card-2 #html,#css,#js{
+    width: auto;
+    background-color: rgba(11, 198, 227, 0.797);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding:5px;
+
+}
+#about-me{
+    text-decoration: underline;
+}
+#heading-skill{
+     text-decoration: underline;
+}
+#contact{
+      text-decoration: underline;
+}
+.footer img{
+    height: 30px;
+    width: 30px;
+}
+@media(max-width:330px){
+.card-2{
+width:70%;
+height:auto;
+}
+}
+@media(max-width:285px){
+    .card-2{
+        width:65%;
+        height:auto;
+    }
+}
